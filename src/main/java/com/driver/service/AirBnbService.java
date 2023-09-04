@@ -21,7 +21,7 @@ public class AirBnbService {
 		// TODO Auto-generated method stub
 		
 		if(hotel==null || hotel.getHotelName()==null)
-			return "an empty a FAILURE";
+			return "FAILURE";
 		
 		return airbnbrepo.addHotel(hotel);
 	}
