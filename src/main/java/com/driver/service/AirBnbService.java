@@ -14,8 +14,8 @@ import com.driver.repositiory.AirBnbrepo;
 @Service
 public class AirBnbService {
 	
-	@Autowired
-	AirBnbrepo airbnbrepo;
+	
+	AirBnbrepo airbnbrepo=new AirBnbrepo();
 
 	public String addHotel(Hotel hotel) {
 		// TODO Auto-generated method stub

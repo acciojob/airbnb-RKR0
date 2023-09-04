@@ -24,7 +24,7 @@ import java.util.UUID;
 public class HotelManagementController {
 	
 	
-	AirBnbService airBnbService; 
+	AirBnbService airBnbService = new AirBnbService(); 
 
     @PostMapping("/add-hotel")
     public String addHotel(@RequestBody Hotel hotel){
